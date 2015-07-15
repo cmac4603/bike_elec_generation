@@ -13,9 +13,9 @@ v1 = adc.read_voltage(1)
 v2 = adc.read_voltage(2)
 
 def calcCurrent(inval):
-    return ((inval) - v1) / 0.066
+    return ((inval) - (v1 / 2)) / 0.066
 
-c1 = v1 / calcCurrent(v2)
+#c1 = float(v1 / calcCurrent(v2))
 
 while (True):
 
@@ -25,7 +25,7 @@ while (True):
     # read from adc channels and print to screen
     print ("Channel 1 voltage V: %02f" % v1)
     print ("Channel 1 current I: %02f" % calcCurrent(v2))
-    print ("Channel 1 resistance R: %02f" % calcResistance())
+    #print ("Channel 1 resistance R: %02f" % c1)
 
     
     # wait 1 second before reading the pins again
