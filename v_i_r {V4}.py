@@ -1,13 +1,13 @@
 #!/usr/bin/python
 
-import ABE_ADCPi_FORK
+from ABE_ADCPi import ADCPi
 from ABE_helpers import ABEHelpers
 import os
 import time
 
 i2c_helper = ABEHelpers()
 bus = i2c_helper.get_smbus()
-adc = ABE_ADCPi_FORK.ADCPi(bus, 0x68, 0x69, 12)
+adc = ADCPi(bus, 0x68, 0x69, 12)
 
 #
 v1 = adc.read_voltage(1)
