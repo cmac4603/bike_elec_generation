@@ -9,8 +9,8 @@ v1 = adc.read_voltage(1)
 v2 = adc.read_voltage(2)
 
 class CurrentCalculator:
-    def calcCurrent(inval):
-        return ((inval) - v1) / 0.066
+    def calcCurrent(v_ref, i_ch):
+        return ((i_ch) - (v_ref)) / 0.066
 
     
     print ("Channel 1 current I: %02f" % calcCurrent(v2))
