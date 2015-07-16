@@ -12,14 +12,14 @@ adc = ADCPi(bus, 0x68, 0x69, 12)
 #
 v1 = adc.read_voltage(1)
 v2 = adc.read_voltage(2)
-i1 = adc.calcCurrent(2,1)
 
-def calcResistance(volt, curr):
-    if (volt. curr):
-            return float(0.0)  # returned a negative voltage so return 0
-        else:
-            resistance = float(volt/curr)
-            return float(resistance)
+def calcCurrent(inval):
+    return ((inval) - 2.5) / 0.066
+
+
+def calcResistance(value):
+    return ((adc.read_voltage(1))/calcCurrent(v2))
+
 
 while (True):
 
@@ -27,9 +27,9 @@ while (True):
     os.system('clear')
 
     # read from adc channels and print to screen
-    print ("Channel 1 voltage V: %02f" % v1)
-    print ("Channel 1 current I: %02f" % i1)
-    print ("Channel 1 resistance R: %02f" % calcResistance(v1, i1))
+    print ("Voltage V: %02f" % v1)
+    print ("Current I: %02f" % calcCurrent(v2))
+    print ("Resistance R: %02f" % calcResistance(v1))
 
     
     # wait 1 second before reading the pins again
