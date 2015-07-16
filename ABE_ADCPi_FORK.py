@@ -115,8 +115,8 @@ class ADCPi:
                 (raw * (self.__lsb / self.__pga)) * 2.448579823702253)
             return float(voltage)
 
-    def calcCurrent(self, v_ref):
-        return ((self) - (v_ref)) / 0.066
+    def calcCurrent(channel, v_ref):
+        return ((channel) - (v_ref)) / 0.066
 
     def read_raw(self, channel):
         # reads the raw value from the selected adc channel - channels 1 to 8
