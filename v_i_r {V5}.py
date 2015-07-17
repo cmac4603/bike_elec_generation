@@ -18,26 +18,27 @@ v2 = adc.read_voltage(2)
 # i2 = current calculated from adc channel 2 defined globally
 
 def calccurrent(inval):
-    global i2
-    i2 = ((inval) - 2.5) / 0.066
+    global i
+    i = ((inval) - 2.5) / 0.066
 
 
 # calculates resistance using tow global variables
 # voltage/current = r where v_channel = i_channel - 1
-def calcresistance():
-    global r1
-    r1 = (v1/i2)
-
+def calcresistance(v):
+    global r
+    r = (v/i)
 
 while (True):
 
     # clear the console
-    os.system('clear')
+    os.system('cls' if os.name == 'nt' else 'clear')
 
-    # print to screen
-    print ("Voltage V: %02f" % v1)
+    # print voltage on ch1
+    print ("Voltage V: %02f" % adc.read_voltage(1))
+    # print current on ch2
     print ("Current I: %02f" % calccurrent(v2))
-    print ("Resistance R: %02f" % r1)
+    # print resistance calculated from channels 1 & 2
+    print ("Resistance R: %02f" % calcresistance(v1))
 
     
     # wait 1 second before reading the pins again
