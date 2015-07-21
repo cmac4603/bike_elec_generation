@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../1. Udacity Programming Foundations with Python/.idea/1. Udacity Programming Foundations with Python.iml" filepath="$PROJECT_DIR$/../1. Udacity Programming Foundations with Python/.idea/1. Udacity Programming Foundations with Python.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Seal_nav_ftp/.idea/Seal_nav_ftp.iml" filepath="$PROJECT_DIR$/../Seal_nav_ftp/.idea/Seal_nav_ftp.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/bike_elec_generation.iml" filepath="$PROJECT_DIR$/.idea/bike_elec_generation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Git Repositories/pi_magazine/.idea/pi_magazine.iml" filepath="$PROJECT_DIR$/../Git Repositories/pi_magazine/.idea/pi_magazine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../untitled_tests_py3/.idea/untitled_tests_py3.iml" filepath="$PROJECT_DIR$/../untitled_tests_py3/.idea/untitled_tests_py3.iml" />
     </modules>
   </component>
 </project>

@@ -4,5 +4,9 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Python 3.4.3 (/Library/Frameworks/Python.framework/Versions/3.4/bin/python3.4)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Seal_nav_ftp" />
+    <orderEntry type="module" module-name="1. Udacity Programming Foundations with Python" />
+    <orderEntry type="module" module-name="pi_magazine" />
+    <orderEntry type="module" module-name="untitled_tests_py3" />
   </component>
 </module>
