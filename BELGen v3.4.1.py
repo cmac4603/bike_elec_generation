@@ -23,11 +23,9 @@ button_press = GPIO.input(BUTTON_PIN)
 v_i = (adc.read_voltage(1)) /2
 # voltage reading from channel 1 (v_supply), used for calccurrent()
 v1 = (adc.read_voltage(1))
-# voltage reading from channel 2, used for calcresistance()
-v2 = (adc.read_voltage(2))
 
 # calculates current from channel labelled 'v_i'
-# i = current calculated from adc channel 2 defined globally
+# i = current calculated from adc channel 1 defined globally
 def calccurrent(inval):
     global i
     i = ((inval) - v_i) / 0.066
@@ -35,26 +33,28 @@ def calccurrent(inval):
     
 # calculates resistance using two global variables
 # voltage/current = r
-def calcresistance(v_ref):
+def calcresistance(volts):
     global r
-    r = (v_ref/i)
-    return (v_ref/i)
+    r = (volts/i)
+    return (volts/i)
 
 def quit_program(channel):
     print('Exit button pressed, quiting program...')
-    time.sleep(0.2)
+    GPIO.cleanup()
+    time.sleep(1)
     exit()
 
 
 def start():
-    print('Voltage, Current & Resistance v7 2015')
-    print('Press button, please...')
+    print('Voltage, Current & Resistance v3.4.1 2015')
+    print('Press the green button for voltage, current, and resistance...')
+    print('Or the red button to quit.')
     GPIO.add_event_detect(EXIT_BUTTON, GPIO.FALLING, callback=quit_program)
     try:
         GPIO.wait_for_edge(24, GPIO.FALLING)
         print ("Voltage V: %02f" % adc.read_voltage(1), 'V')
         # print current on ch2
-        print ("Current I: %02f" % calccurrent(v2))
+        print ("Current I: %02f" % calccurrent(v1))
         # print resistance calculated from channels 1 & 2
         print ("Resistance R: %02f" % calcresistance(v1))
         # key debounce
