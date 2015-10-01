@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fa9cece-001f-41cf-acee-e1fa00c48254" name="Default" comment="...">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/bike_elec_generation.iml" afterPath="$PROJECT_DIR$/.idea/bike_elec_generation.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Git Repositories/pi_magazine/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Git Repositories/pi_magazine/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Git Repositories/pi_magazine/.idea/pi_magazine.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Git Repositories/pi_magazine/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Git Repositories/pi_magazine/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bike_elec_generation.iws" />
@@ -486,6 +489,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7fa9cece-001f-41cf-acee-e1fa00c48254" name="Default" comment="" />
+      <changelist id="" name="New changelist" comment="" />
       <created>1437064672084</created>
       <option name="number" value="Default" />
       <updated>1437064672084</updated>
@@ -574,7 +578,19 @@
       <option name="project" value="LOCAL" />
       <updated>1443733879546</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="...">
+      <created>1443734321265</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1443734321265</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Finished intro to python course">
+      <created>1443734424307</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1443734424307</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -625,7 +641,8 @@
     <MESSAGE value="python2 fixes" />
     <MESSAGE value="Finished intro course to python" />
     <MESSAGE value="..." />
-    <option name="LAST_COMMIT_MESSAGE" value="..." />
+    <MESSAGE value="Finished intro to python course" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished intro to python course" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
