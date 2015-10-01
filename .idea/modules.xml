@@ -4,9 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../1. Udacity Programming Foundations with Python/.idea/1. Udacity Programming Foundations with Python.iml" filepath="$PROJECT_DIR$/../1. Udacity Programming Foundations with Python/.idea/1. Udacity Programming Foundations with Python.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Git Repositories/ABElectronics_Python3_Libraries/ADCPi/.idea/ADCPi.iml" filepath="$PROJECT_DIR$/../Git Repositories/ABElectronics_Python3_Libraries/ADCPi/.idea/ADCPi.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../Seal_nav_ftp/.idea/Seal_nav_ftp.iml" filepath="$PROJECT_DIR$/../Seal_nav_ftp/.idea/Seal_nav_ftp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Conway's GoL/.idea/Conway's GoL.iml" filepath="$PROJECT_DIR$/../Conway's GoL/.idea/Conway's GoL.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Sleeve_Gun_Tests/.idea/Sleeve_Gun_Tests.iml" filepath="$PROJECT_DIR$/../Sleeve_Gun_Tests/.idea/Sleeve_Gun_Tests.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/bike_elec_generation.iml" filepath="$PROJECT_DIR$/.idea/bike_elec_generation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../nav_header_split/.idea/nav_header_split.iml" filepath="$PROJECT_DIR$/../nav_header_split/.idea/nav_header_split.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../nav_time_error/.idea/nav_time_error.iml" filepath="$PROJECT_DIR$/../nav_time_error/.idea/nav_time_error.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Git Repositories/pi_magazine/.idea/pi_magazine.iml" filepath="$PROJECT_DIR$/../Git Repositories/pi_magazine/.idea/pi_magazine.iml" />
       <module fileurl="file://$PROJECT_DIR$/../untitled_tests_py2/.idea/untitled_tests_py2.iml" filepath="$PROJECT_DIR$/../untitled_tests_py2/.idea/untitled_tests_py2.iml" />
       <module fileurl="file://$PROJECT_DIR$/../untitled_tests_py3/.idea/untitled_tests_py3.iml" filepath="$PROJECT_DIR$/../untitled_tests_py3/.idea/untitled_tests_py3.iml" />
